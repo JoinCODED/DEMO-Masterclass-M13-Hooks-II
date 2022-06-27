@@ -1,0 +1,59 @@
+.container {
+  margin: 2em;
+}
+
+.title {
+  font: 500 1.3rem sans-serif;
+  text-align: center;
+}
+
+.form {
+  display: grid;
+  gap: 1.5rem;
+  max-width: 40rem;
+}
+
+.input {
+  border-bottom: 1px solid #333;
+}
+
+.submitBtn {
+  background-color: #ea4c89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  &:hover,
+  &:focus {
+    background-color: #f082ac;
+  }
+}
+
+.code {
+  background: #f1f1f1;
+  border-radius: 6px;
+  padding: 1em;
+  margin-top: 1em;
+  max-width: 40rem;
+}
